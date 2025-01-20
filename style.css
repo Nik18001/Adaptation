@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+
+.head{
+    width: 100%;
+    height: 60px;
+    background-color: yellow;
+}
+
+nav{
+    margin: 0;
+}
+
+.head ul{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.block{
+    /* w300px */
+    /* h300px */
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.one{
+    background-color: aquamarine;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: brown;
+}
+
+.four{
+    background-color: blueviolet;
+}
+
+.content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:981px) {
+    .content{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:616px) {
+body{
+    background-color: darkgreen;
+}
+}
+
+@media (max-width:366px) {
+    nav{
+        display: none;
+    }
+}
